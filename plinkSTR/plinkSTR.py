@@ -33,7 +33,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import argparse
-import common
+import strtools.utils.common as common
 import numpy as np
 import pandas as pd
 from statsmodels.formula.api import logit
